@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
 })
 
 const server = http.createServer(app);
-const PORT = process.env.PORT || 4000;
+const PORT = 4000;
 
 server.listen(PORT, () => {
 	console.log(`listening on ${PORT}`, new Date());
